@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [read-chunk (v2.0.0)](https://github.com/sindresorhus/read-chunk#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-read-chunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-read-chunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-read-chunk.svg)](https://travis-ci.org/npmtest/node-npmtest-read-chunk)",
+    "description": "#### basic test coverage for  [read-chunk (v2.0.0)](https://github.com/sindresorhus/read-chunk#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-read-chunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-read-chunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-read-chunk.svg)](https://travis-ci.org/npmtest/node-npmtest-read-chunk)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "read-chunk": "*",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.25"
 }

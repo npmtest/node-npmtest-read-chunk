@@ -1,6 +1,6 @@
 # npmtest-read-chunk
 
-#### test coverage for  [read-chunk (v2.0.0)](https://github.com/sindresorhus/read-chunk#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-read-chunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-read-chunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-read-chunk.svg)](https://travis-ci.org/npmtest/node-npmtest-read-chunk)
+#### basic test coverage for  [read-chunk (v2.0.0)](https://github.com/sindresorhus/read-chunk#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-read-chunk.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-read-chunk) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-read-chunk.svg)](https://travis-ci.org/npmtest/node-npmtest-read-chunk)
 
 #### Read a chunk from a file
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-read-chunk/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-read-chunk/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-read-chunk/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-read-chunk/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-read-chunk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-read-chunk/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-read-chunk/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-read-chunk/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-read-chunk/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-read-chunk/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-read-chunk/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-read-chunk/build/coverage.html/index.html)
 
@@ -95,7 +95,8 @@
     "version": "2.0.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
 
